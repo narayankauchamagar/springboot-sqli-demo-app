@@ -1,4 +1,11 @@
-##SQL injection for non-parameterized query
+###SQL injection for non-parameterized query
+
+SETUP:
+* database: H2
+* type: inmemory
+* hibernate ddl:  create-drop
+* data: inserted on app start
+
 
 ### Checking possible SQLi in API 
 
